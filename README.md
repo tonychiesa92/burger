@@ -1,6 +1,6 @@
 # burger
 
-### Before You Begin
+### About
 
 Eat-Da-Burger is a restaurant app that lets users input the names of burgers they'd like to eat, then allows them to `Devour it!` with just a click of a button.
 
