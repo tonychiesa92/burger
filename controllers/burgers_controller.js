@@ -31,13 +31,13 @@ router.post("/burgers/create", function (req, res) {
         });
 });
 
-router.put("/burgers/:id", function (req, res) {
+router.put("/burgers/eat/:id", function (req, res) {
     var condition = "id = " + req.params.id;
 
     console.log("condition", condition);
 
     burgers.updateOne({
-        "devoured": req.body.devoured
+        devoured: req.body.devoured
     }, condition, function (result) {
         res.redirect("/burgers")
     });
