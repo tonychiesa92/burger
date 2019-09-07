@@ -1,0 +1,14 @@
+<form>
+	<div class="input-group">
+		<li class="form-control">{{id}}. {{burger_name}}</li>
+		{{#if devoured}}
+		<span class="input-group-btn">
+			
+			<button class="btn btn-success change-devoured" data-id="{{id}}" data-newdevoured="{{devoured}}">
+				Devour It!
+			</button>
+			
+		</span>
+		{{/if}}
+	</div>
+</form>
